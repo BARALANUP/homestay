@@ -1,0 +1,149 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.headline {
+  width: 100%;
+  height: fit-content;
+  background-color: black;
+  text-align: center;
+}
+.headline a {
+  font-family: sans-serif;
+  font-weight: 900;
+  font-variant: small-caps;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  padding: 5%;
+  transition-duration: 10s;
+  transition: ease-in-out;
+  transition-property: all;
+}
+.maindiv {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7) url(./mardihimaltreek.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  animation-name: animationimage;
+  animation-duration: 10s;
+}
+
+.banner {
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  background-color: white;
+  justify-content: center;
+  text-align: center;
+}
+.banner ul li {
+  display: inline;
+  padding: 10px;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-variant: small-caps;
+}
+.Annapurnatext {
+  font-size: 40px;
+  color: white;
+  position: relative;
+  top: 60%;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 900;
+}
+.booking {
+  text-align: center;
+  position: relative;
+  left: 30%;
+  top: 63%;
+  width: 40%;
+  height: 10vh;
+}
+.booking:hover {
+  color: blue;
+  font-size: 120%;
+  font-family: sans-serif;
+  font-weight: 900;
+  font-variant: small-caps;
+}
+.booking:active {
+  color: red;
+  opacity: 0.1%;
+}
+@media screen and (max-width: 720px) {
+  .Annapurnatext {
+    font-size: 200%;
+    color: white;
+    position: relative;
+    top: 60%;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 900;
+  }
+  .introduction {
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-variant: small-caps;
+    font-size: 120%;
+  }
+}
+.seconddiv {
+  height: fit-content;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 900;
+  font-variant: small-caps;
+}
+
+.seconddiv h1 {
+  padding: 10%;
+}
+.seconddiv ul {
+  margin: 2%;
+  font-size: 120%;
+}
+.seconddiv ul:hover {
+  color: blue;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  cursor: pointer;
+}
+.introduction {
+  height: fit-content;
+  width: 100%;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 900;
+  font-variant: small-caps;
+}
+.introduction p {
+  padding-top: 3%;
+}
+.introduction p {
+  background-color: blue;
+  color: white;
+}
+#showwait {
+  display: none;
+}
+.introduction button {
+  background-color: black;
+  color: white;
+  height: 5vh;
+  margin: 4%;
+  font-size: 90%;
+  font-family: sans-serif;
+  text-transform: capitalize;
+}
+.introduction a{color: white;text-decoration: none;font-family: sans-serif;font-weight: 900;font-variant: small-capsz;}

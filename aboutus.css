@@ -1,0 +1,103 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  background: fixed;
+}
+.maindiv {
+  height: fit-content;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+.banner {
+  width: 100%;
+  height: 10vh;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+}
+.banner ul li {
+  display: inline;
+  padding: 20px;
+}
+.banner ul {
+  margin: 2%;
+}
+.banner a {
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 900;
+  font-variant: small-caps;
+}
+@media screen and (max-width: 720px) {
+  .banner {
+    width: 100%;
+    height: 10vh;
+    background-color: blue;
+    display: table;
+    text-align: center;
+  }
+  .banner ul li {
+    display: list-item;
+    padding: 20px;
+  }
+  .banner ul {
+    margin: 2%;
+  }
+  .banner a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-variant: small-caps;
+  }
+  .banner a:hover {
+    background-color: black;
+    color: white;
+    font-variant: small-caps;
+    transition: ease-in-out;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+  }
+}
+.banner a:hover {
+  background-color: black;
+  color: white;
+  font-variant: small-caps;
+  transition: ease-in-out;
+  transition-duration: 3s;
+  transition-timing-function: ease-in-out;
+}
+
+.introbox {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7) url(./mardihimaltreek.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  text-align: center;
+}
+.introbox h1 {
+  position: relative;
+  top: 80%;
+}
+.introbox p {
+  position: relative;
+  top: 82%;
+}
+
+.introduction {
+  width: 100%;
+  height: fit-content;
+  background-color: red;
+  color: white;
+}
+.introduction h1{padding: 1%;}
+.introbox h1{
+  position: relative;
+  top: 50%;
+}
+.introbox p{position: relative;top: 55%;}
